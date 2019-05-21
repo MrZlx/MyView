@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.administrator.myview.CircleBarView
+        app:start_angle="135"
+        app:sweep_angle="270"
+        app:progress_color="@color/colorAccent"
+        app:bg_color="@color/colorPrimary"
+        app:bar_width="20dp"
+        android:id="@+id/cicleBarProgress"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.example.administrator.myview.HexagramView
+
+        android:id="@+id/hexagramView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
